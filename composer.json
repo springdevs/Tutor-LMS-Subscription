@@ -1,0 +1,22 @@
+{
+  "name": "springdevs/tutor-lms-subscription",
+  "description": "Tutor LMS support for subscription module",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "SpringDevs",
+      "email": "contact@spingdevs.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Springdevs\\TutorSubscrpt\\": "includes/"
+    },
+    "files": [
+      "includes/functions.php"
+    ]
+  }
+}
