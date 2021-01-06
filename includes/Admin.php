@@ -2,8 +2,6 @@
 
 namespace Springdevs\TutorSubscrpt;
 
-use Springdevs\TutorSubscrpt\Admin\Product;
-
 /**
  * The admin class
  */
@@ -16,7 +14,6 @@ class Admin
     public function __construct()
     {
         $this->dispatch_actions();
-        new Product;
     }
 
     /**
